@@ -32,7 +32,6 @@ lp:
 		rjmp lp
 
 ;
-; An improved version of the button test subroutine
 ;
 ; Returns in r24:
 ;	0 - no button pressed
@@ -200,7 +199,7 @@ del3:		nop
 ;	r0 - value to display
 ;
 display:
-		; copy your code from a2q2.asm here
+
 push r16
 push r17
 push r18
